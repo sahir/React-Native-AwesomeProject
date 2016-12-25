@@ -12,6 +12,13 @@ import {
   View
 } from 'react-native';
 
+import Header from './src/component/Header';
+
+const App = () =>{
+  <Header />
+};
+
+/*
 export default class AwesomeProject extends Component {
   render() {
     return (
@@ -29,7 +36,7 @@ export default class AwesomeProject extends Component {
       </View>
     );
   }
-}
+}*/
 
 const styles = StyleSheet.create({
   container: {
@@ -50,4 +57,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('AwesomeProject', () => AwesomeProject);
+AppRegistry.registerComponent('AwesomeProject', () => App);
